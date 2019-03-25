@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "黄建华" => "119541779@qq.com" }
   s.source       = { :git => "https://github.com/kennyhuangjianhua/new.git", :tag => "#{s.version}" }
-  s.source_files = 'runtime/runtime/*.{h,m}'
+  s.source_files = 'new/runtime/runtime/*.{h,m}'
   s.requires_arc = true
 end
